@@ -22,8 +22,6 @@ node
     {
         echo "Delivery"
     }
-    
-}
 /*/* This script will provide basic idea to create jenkins file and deploy application on deployment environment.
 /*Deployment environment can be anything like Docker, kubernetes or cloud.
 /*Create 'deploy.properties' file at same location and save all the build and deployment properties. This file will be refered by this pipeline for build and deployment. */
@@ -282,3 +280,4 @@ node
 /*	sh """	
 /*	${scannerHome}/bin/sonar-runner -D sonar.host.url=${sonarHosturl} -D sonar.login=admin -D sonar.password=admin -D sonar.java.binaries=target/classes -D sonar.jacoco.reportPaths=target/jacoco.exec"""
 /*}
+}
